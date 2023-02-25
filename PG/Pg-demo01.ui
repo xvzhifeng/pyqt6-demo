@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainView</class>
+ <widget class="QWidget" name="mainView">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>901</width>
+    <height>753</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>901</width>
+    <height>753</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>901</width>
+    <height>753</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>251</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="Task01" stretch="0,0,0,0,0">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="p1">
+      <property name="text">
+       <string>P1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="p2">
+      <property name="text">
+       <string>p2</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>509</y>
+     <width>251</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="task02">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetMinimumSize</enum>
+    </property>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>0</y>
+     <width>16</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>470</y>
+     <width>271</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>490</y>
+     <width>200</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>200</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Task2</string>
+   </property>
+   <property name="indent">
+    <number>20</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>201</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>215</width>
+     <height>21</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Task1</string>
+   </property>
+   <property name="indent">
+    <number>30</number>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>42</y>
+     <width>603</width>
+     <height>681</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="content_2" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>601</width>
+        <height>161</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>601</width>
+        <height>161</height>
+       </size>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <widget class="QPushButton" name="p2_01">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>66</y>
+         <width>78</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>p2_01</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="p2_02">
+       <property name="geometry">
+        <rect>
+         <x>203</x>
+         <y>66</y>
+         <width>80</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>p2_02</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="p2_03">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>66</y>
+         <width>80</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>p2_03</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="content" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>601</width>
+        <height>161</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>601</width>
+        <height>161</height>
+       </size>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <widget class="QPushButton" name="p1_01">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>66</y>
+         <width>78</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>p1_01</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="p1_02">
+       <property name="geometry">
+        <rect>
+         <x>203</x>
+         <y>66</y>
+         <width>80</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>p1_02</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="p1_03">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>66</y>
+         <width>80</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>p1_03</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+   <zorder>content_2</zorder>
+   <zorder>content</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>p1</sender>
+   <signal>clicked()</signal>
+   <receiver>content</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>135</x>
+     <y>135</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>594</x>
+     <y>384</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>p1</sender>
+   <signal>clicked()</signal>
+   <receiver>content_2</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>135</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>581</x>
+     <y>238</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>p2</sender>
+   <signal>clicked()</signal>
+   <receiver>content_2</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>135</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>581</x>
+     <y>238</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>p2</sender>
+   <signal>clicked()</signal>
+   <receiver>content</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>135</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>581</x>
+     <y>524</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
